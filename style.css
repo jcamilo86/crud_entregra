@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: "Poppins", sans-serif;
+}
+
+
+.container {
+  margin: 60px auto;
+  width: 400px;
+}
+.boton {
+  width: 450px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+}
+.cont :hover{
+  background-color: rgb(234, 15, 242);
+
+}
+.boton2 {
+  background: #fc5c7d; /* fallback for old browsers */
+  border: none;
+  width: 400px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 3px;
+  color: white;
+}
+
+
+.cont{
+  padding-left: 20px;
+}
+.marcoDatos{
+  margin: 60px auto;
+  width: 400px;
+  background-color: #84877e;
+display: flex;
+flex-direction: row;
+  
+}
+
+.BotonEminar{
+background-color: yellow;
+border: none;
+width: 200px;
+height: 40px;
+margin: 10px ;
+}
+.BotonEditar{
+  background-color: #f64f59;
+  border: none;
+  width: 200px;
+height: 40px;
+  
+}
+
+
+
+
+
+
