@@ -19,8 +19,6 @@ body {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: "Poppins", sans-serif;
 }
-
-
 .container {
   margin: 60px auto;
   width: 400px;
@@ -32,7 +30,9 @@ body {
   border-radius: 5px;
 }
 .cont :hover{
-  background-color: rgb(234, 15, 242);
+  background-color: transparent;
+  border: 2px solid white; 
+  color:  rgb(44, 3, 44); ;
 
 }
 .boton2 {
@@ -41,38 +41,56 @@ body {
   width: 400px;
   height: 40px;
   margin-top: 10px;
-  border-radius: 3px;
+  border-radius: 7px;
   color: white;
+  font-size: 20px;
 }
-
-
 .cont{
   padding-left: 20px;
+
+
 }
 .marcoDatos{
   margin: 60px auto;
   width: 400px;
-  background-color: #84877e;
-display: flex;
-flex-direction: row;
-  
+  background-color: #fbfdf8;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
 }
-
 .BotonEminar{
 background-color: yellow;
 border: none;
-width: 200px;
-height: 40px;
-margin: 10px ;
+width: 100px;
+height: 30px;
+margin: 5px;
+border-radius: 7px;
+font-family:Arial, Helvetica, sans-serif ;
+font-weight: 700;
+color:  rgb(44, 3, 44); 
 }
+.BotonEminar:hover{
+background-color: transparent;
+border: 2px solid  rgb(44, 3, 44); 
+color:  rgb(44, 3, 44); ;
+}
+
 .BotonEditar{
   background-color: #f64f59;
   border: none;
-  width: 200px;
-height: 40px;
-  
+  width: 100px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 7px;
+  font-family:Arial, Helvetica, sans-serif ;
+  font-weight: 700;
+  color:  rgb(44, 3, 44);
 }
-
+.BotonEditar:hover{
+  background-color: transparent;
+  border: 2px solid  rgb(44, 3, 44); 
+  color:  rgb(44, 3, 44); ;
+  }
 
 
 
